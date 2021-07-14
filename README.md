@@ -10,7 +10,7 @@ Core code to provide a method for Microsoft-based configuration to connect to a 
  <p>In this specific example, the class include the username, password, and proxy endpoint. Replace these values for your proxy settings and compile to a ProxyAuthModule.dll file.</p>
  <p>Next, edit the *.config file that will reference this proxy and include the following lines:</p>
  <p>
- <system.net><br />
+ /<system.net/><br />
    <defaultProxy><br />
      <module type="ProxyAuthModule.ProxyAuthModule,  /><br />
    </defaultProxy/>
