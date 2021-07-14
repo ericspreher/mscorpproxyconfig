@@ -12,6 +12,6 @@ Core code to provide a method for Microsoft-based configuration to connect to a 
  <p>
  <system.net><br />
    <defaultProxy><br />
-     <module type="ProxyAuthModule.ProxyAuthModule,  /><br />"
+     <module type="ProxyAuthModule.ProxyAuthModule,  /><br />
    </defaultProxy/>
  </p>
